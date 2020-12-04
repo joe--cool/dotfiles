@@ -14,6 +14,7 @@ export KEYTIMEOUT=1
 #export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
 #export PATH="/Users/adillow/jdbc/presto/prestosql/bin:$PATH"
 
+alias ll='ls -lG'
 alias xl='open -a "Microsoft Excel"'
 alias gh='open `git config remote.origin.url | sed "s/:/\//" | sed "s/git@/https:\/\//"`'
 
