@@ -11,13 +11,7 @@ set smartindent         " smart indenting
 set expandtab           " spaces instead of tabs
 set tabstop=2           " 2 spaces for tabs
 set shiftwidth=2        " 2 spaces for indentation
-
-" bells
 set noerrorbells        " turn off audio bell
-set visualbell          " but leave on a visual bell
-
-
-
 set autoread            " watch for file changes
 set nobackup            " don't create pointless backup files; Use VCS instead
 set showmode            " show INSERT, VISUAL, etc. mode
