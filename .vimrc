@@ -28,9 +28,12 @@ set incsearch
 set showmatch           " show matching bracket
 hi Search guibg=LightBlue guifg=black
 
+" Current line highlighting
+set cursorline          " highlight the current line
+hi CursorLine   cterm=NONE ctermbg=black guibg=black
+
 " other config
 set autoread            " watch for file changes
-set cursorline          " highlight the current line
 set nobackup            " don't create pointless backup files; Use VCS instead
 set noerrorbells        " turn off audio bell
 set number              " show line numbers
