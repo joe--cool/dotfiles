@@ -20,7 +20,7 @@ set statusline=%<%f%h%m%r%h%w%y\ %{&ff}\ %{strftime(\"%Y-%m-%d\ %H:%M\")}%=\ lin
 hi statusline guibg=slategrey
 
 " clipboard
-set clipboard=unnamed   " allow yy, etc. to interact with OS X clipboard
+"set clipboard=unnamed   " allow yy, etc. to interact with OS X clipboard
 
 " search
 set hlsearch
