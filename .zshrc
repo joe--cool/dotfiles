@@ -17,6 +17,7 @@ export KEYTIMEOUT=1
 alias ll='ls -lG'
 alias xl='open -a "Microsoft Excel"'
 alias gh='open `git config remote.origin.url | sed "s/:/\//" | sed "s/git@/https:\/\//"`'
+alias hn="cat ~/.ssh/known_hosts | cut -d ',' -f1 | cut -d ' ' -f1 | grep"
 
 setopt rm_star_silent
 
