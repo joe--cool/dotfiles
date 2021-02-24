@@ -1,5 +1,5 @@
 " column-width visual indication
-let &colorcolumn=join(range(81,999),",")
+let &colorcolumn=join(range(90,999),",")
 highlight ColorColumn ctermbg=235 guibg=#001D2F
 
 syntax on               " enable syntax highlighting
